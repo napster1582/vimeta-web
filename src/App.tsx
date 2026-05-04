@@ -20,7 +20,7 @@ import {
   TweakToggle,
 } from './components/TweaksPanel'
 
-interface TweakValues {
+type TweakValues = {
   density: 'compact' | 'default' | 'spacious'
   motionLevel: 'off' | 'low' | 'high'
   showTechStack: boolean
