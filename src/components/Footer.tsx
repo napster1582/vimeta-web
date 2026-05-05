@@ -1,3 +1,5 @@
+import { Link } from 'react-router-dom'
+
 export default function Footer() {
   return (
     <footer className="footer" id="footer">
@@ -65,8 +67,8 @@ export default function Footer() {
         <div className="footer-bottom">
           <p className="footer-copy">&copy; 2026 Vimeta Technologies. Todos los derechos reservados.</p>
           <div className="footer-legal">
-            <a href="/Privacidad.html">Política de Privacidad</a>
-            <a href="/Terminos.html">Términos y Condiciones</a>
+            <Link to="/privacidad">Política de Privacidad</Link>
+            <Link to="/terminos">Términos y Condiciones</Link>
           </div>
         </div>
       </div>

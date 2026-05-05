@@ -287,7 +287,7 @@ export default function ContactModal() {
                   <span className="material-icons">check</span>
                 </span>
                 <span className="form-consent-text">
-                  Acepto la <a href="/Privacidad.html" target="_blank" rel="noopener noreferrer">política de privacidad</a> y los <a href="/Terminos.html" target="_blank" rel="noopener noreferrer">términos y condiciones</a>.
+                  Acepto la <a href="/privacidad" target="_blank" rel="noopener noreferrer">política de privacidad</a> y los <a href="/terminos" target="_blank" rel="noopener noreferrer">términos y condiciones</a>.
                 </span>
               </label>
 
